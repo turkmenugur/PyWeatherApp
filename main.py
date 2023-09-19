@@ -63,8 +63,7 @@ def get_data():
             elif condition == "Overcast":
                 image = PhotoImage(file="assets/overcast.png")
             elif condition == "Mist":
-                image = PhotoImage(file="assets/mist.pngpwd"
-                                        "")
+                image = PhotoImage(file="assets/mist.png")
             else:
                 image = PhotoImage(file="assets/sunny.png")
 
